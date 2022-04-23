@@ -1,0 +1,296 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    color: white;
+}
+
+body{
+    height: 60vh;
+background-color: aqua;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.contenedor{
+    
+    width: 80%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,265px);
+    grid-gap: 20px;
+}
+.contenedor div{
+    border-radius: 15px;
+}
+
+.contenedor .daniel{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: #733fc8;
+    position: relative;
+}
+.contenedor .daniel .comillas{
+    position: absolute;
+    left: 60%;
+    z-index: 10;
+}
+.contenedor .daniel .informacion{
+    position: absolute;
+    z-index: 20;
+}
+.contenedor .daniel .informacion img{
+    border-radius: 50%;
+    border: white solid 1px;
+    height: 30px;
+    
+}
+.contenedor .daniel .informacion .perfil {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 0 20px;
+}
+
+.contenedor .daniel .informacion .perfil .nombre{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.contenedor .daniel .informacion .perfil .graduate{
+    opacity: 0.5;
+}
+
+.contenedor .daniel .informacion .info .negrilla{
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.contenedor .daniel .informacion .info .opacity{
+    font-weight: 200;
+    font-size: 13px;
+    opacity: 0.7;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenedor .jonathan{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: #49556b;
+}
+
+.contenedor .jonathan .informacion .perfil img{
+    border-radius: 50%;
+    border: white solid 1px;
+    height: 30px;
+}
+
+.contenedor .jonathan .informacion .perfil {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 0 20px;
+}
+.contenedor .jonathan .informacion .perfil .nombre{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.contenedor .jonathan .informacion .perfil b{
+    opacity: 0.5;   
+}
+
+.contenedor .jonathan .info .negrilla{
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.contenedor .jonathan .info .opacity{
+    font-weight: 200;
+    font-size: 13px;
+    opacity: 0.7;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.contenedor .jenanette{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: #ffffff;
+   
+}
+.contenedor .jenanette .informacion .perfil img{
+    border-radius: 50%;
+    border: white solid 1px;
+    height: 30px;
+}
+.contenedor .jenanette .informacion .perfil{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 0 20px;
+}
+.contenedor .jenanette .informacion .perfil .nombre{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.contenedor .jenanette .informacion .perfil .nombre span{
+    color: black;
+}
+.contenedor .jenanette .informacion .perfil .nombre  b{
+    color: black;
+}
+
+.contenedor .jenanette .informacion .perfil b{
+    opacity: 0.5;
+}
+.contenedor .jenanette .info .negrilla{
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    color: black;
+}
+
+.contenedor .jenanette .info .opacity{
+    font-weight: 200;
+    font-size: 13px;
+    opacity: 0.7;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+
+.contenedor .patrick{
+    grid-row: 2/3;
+    grid-column: 2/4;
+    background-color: #18202D;
+}
+
+.contenedor .patrick .informacion .perfil img{
+    border-radius: 50%;
+    border: white solid 1px;
+    height: 30px;
+}
+
+.contenedor .patrick .informacion .perfil{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 0 20px;
+}
+.contenedor .patrick .informacion .perfil .nombre{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.contenedor .patrick .informacion .perfil b{
+    opacity: 0.5;
+}
+
+.contenedor .patrick .info .negrilla{
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    
+}
+
+.contenedor .patrick .info .opacity{
+    font-weight: 200;
+    font-size: 13px;
+    opacity: 0.7;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.contenedor .kira{
+    grid-row: 1/3;
+    grid-column: 4/5;
+    background-color:#ffffff;
+}
+
+.contenedor .kira .informacion .perfil img{
+    border-radius: 50%;
+    border: white solid 1px;
+    height: 30px;
+}
+
+.contenedor .kira .informacion .perfil{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 0 20px;
+}
+
+.contenedor .kira .informacion .perfil .nombre{
+    margin-left: 10px;
+    font-weight: 600;
+    
+}
+
+.contenedor .kira .informacion .perfil .nombre span{
+    color: black;
+}
+
+.contenedor .kira .informacion .perfil b{
+    opacity: 0.5;
+    color: black;
+}
+
+.contenedor .kira .info .negrilla{
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    color: black;
+}
+
+.contenedor .kira .info .opacity{
+    font-weight: 200;
+    font-size: 13px;
+    opacity: 0.7;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+@media (max-width: 1000px){
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+   body{
+    height: 50vh;
+background-color: aqua;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.contenedor .daniel .informacion{
+    position:relative;
+    z-index: 20;
+}
+.contenedor .daniel .comillas {
+    position: absolute;
+    left: 60%;
+    z-index: 10;
+}
+
+}
